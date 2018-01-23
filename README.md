@@ -5,7 +5,7 @@ ArrayList inherits from JavaScript Array, without overwriting or populate this c
 
 ##Install:
 
-    # npm install arraylist
+    # npm install rpqbarraylist
 
 ## API:
 
@@ -32,6 +32,27 @@ list.set(1, 'world');
 list.get(0); // hello
 list.get(1); // world
 ```
+
+
+* **containsObject(element)**
+
+    Check if an element is in the list
+
+```js
+var list = new ArrayList;
+var obj1 = {"name":"john"};
+var obj2 = {"name":"tom"};
+var obj3 = {"name":"potter"};
+list.add(obj1);
+list.add(obj2);
+list.add(obj3);
+list.contains(obj1); // true
+list.contains(obj2); // true
+list.contains({"name":"potter"}); // true
+list.contains({"name":"gandalf"}); // false
+```
+
+* **add(elements)**
 
 * **contains(element)**
 

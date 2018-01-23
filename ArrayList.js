@@ -51,19 +51,30 @@ _.extend(ArrayList.prototype, {
     contains: function(element) {
         for (var i = 0, len = this.length; i < len; i++) {
 
-            if (element instanceof Object) {
-                if (JSON.stringify(element) === JSON.stringify(this[i])) {
-                    return true;
-                }
-            } else {
-                if (element === this[i]) {
-                    return true;
-                }
+            if (element === this[i]) {
+                return true;
             }
+
         }
         return false;
     },
 
+    /**
+     * Check if an object is in the list
+     *
+     * @param element
+     * @returns {boolean}
+     */
+    containsObject: function(element) {
+        for (var i = 0, len = this.length; i < len; i++) {
+
+            if (JSON.stringify(element) === JSON.stringify(this[i])) {
+                return true;
+            }
+
+        }
+        return false;
+    },
     /**
      * Add elements to the list
      *
