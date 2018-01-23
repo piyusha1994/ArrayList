@@ -1,26 +1,26 @@
 {
-  "name": "rpqbarraylist",
-  "version": "1.0.0",
-  "description": "ArrayList\r =========",
-  "main": "ArrayList.js",
-  "directories": {
-    "test": "tests"
-  },
-  "dependencies": {
-    "grunt": "^1.0.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "npm test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/umashankar-rapiqube/ArrayList.git"
-  },
-  "author": "umashankar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/umashankar-rapiqube/ArrayList/issues"
-  },
-  "homepage": "https://github.com/umashankar-rapiqube/ArrayList#readme"
+    "name": "rpqbarraylist",
+    "version": "1.0.1",
+    "description": "ArrayList\r =========",
+    "main": "ArrayList.js",
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {
+        "grunt": "^1.0.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "npm test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/umashankar-rapiqube/ArrayList.git"
+    },
+    "author": "umashankar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/umashankar-rapiqube/ArrayList/issues"
+    },
+    "homepage": "https://github.com/umashankar-rapiqube/ArrayList#readme"
 }
