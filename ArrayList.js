@@ -6,7 +6,7 @@ var _ = require('underscore');
  * @returns {Array}
  * @constructor
  */
-function ArrayList() {
+function rpqbArrayList() {
     var list = [];
     list.__proto__ = ArrayList.prototype;
     return list;
