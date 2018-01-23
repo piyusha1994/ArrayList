@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-rpqbArrayList
-=========
 
 rpqbArrayList inherits from JavaScript Array, without overwriting or populate this class.
 
@@ -1034,5 +1031,4 @@ list.sample(); // 4
 var list = new rpqbArrayList;
 list.add([1, 2, 3, 4, 5]);
 list.size(); // 5
->>>>>>> fe582192cbc1a70ec2eb9f7fa6da8d690419343d
 ```
