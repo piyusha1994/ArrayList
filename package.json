@@ -1,6 +1,6 @@
 {
     "name": "rpqbarraylist",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "ArrayList\r =========",
     "main": "ArrayList.js",
     "directories": {
