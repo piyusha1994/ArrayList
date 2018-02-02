@@ -58,7 +58,7 @@ _.extend(ArrayList.prototype, {
             }
 
         }
-        return "Element not in Array";
+        return "-1";
     },
 
     /**
