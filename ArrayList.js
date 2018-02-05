@@ -68,10 +68,10 @@ _.extend(ArrayList.prototype, {
      * @param value
      * @returns {ArrayList}
      */
-    indexOfObj: function(id) {
+    indexOfObjectsId: function(element) {
         for (var i = 0, len = this.length; i < len; i++) {
             
-            if (id === this[i].data.ID) {
+            if (element === this[i].ID) { 
                 return i;
             }
         }
@@ -81,6 +81,7 @@ _.extend(ArrayList.prototype, {
     /**
      * Check if an element is in the list
      *
+     * 
      * @param element
      * @returns {boolean}
      */
@@ -105,6 +106,23 @@ _.extend(ArrayList.prototype, {
         for (var i = 0, len = this.length; i < len; i++) {
 
             if (JSON.stringify(element) === JSON.stringify(this[i])) {
+                return true;
+            }
+
+        }
+        return false;
+    },
+
+    /**
+     * Check if an object is in the list
+     *
+     * @param element
+     * @returns {boolean}
+     */
+    containsInnerObj: function(element) {
+        for (var i = 0, len = this.length; i < len; i++) {
+
+            if (JSON.stringify(element) === JSON.stringify(this[i].data)) {
                 return true;
             }
 

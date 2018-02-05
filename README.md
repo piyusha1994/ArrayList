@@ -50,22 +50,9 @@ list.indexOf({"name":"john"}); // 0
 list.indexOf({"name":"tom"}); // 1
 ```
 
-* **indexOf(value)**
-
-    Get index of an Array by id inside of that object
-
-```js
-var list = new rpqbArrayList;
-
-if list = ([{"id":"1a3b2fd","name":"tom"},{"id":"df34tf6","name":"john"}])
-list.indexOfObj("1a3b2fd"); // 0
-list.indexOfObj("df34tf6"); // 1
-```
-
-
 * **containsObject(element)**
 
-    Check if an element is in the list
+    Check if an object is in the list
 
 ```js
 var list = new rpqbArrayList;
@@ -80,6 +67,8 @@ list.contains(obj2); // true
 list.contains({"name":"potter"}); // true
 list.contains({"name":"gandalf"}); // false
 ```
+
+
 
 * **add(elements)**
 

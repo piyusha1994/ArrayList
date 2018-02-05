@@ -14,7 +14,7 @@
     ]
   ],
   "_from": "rpqbarraylist@latest",
-  "_id": "rpqbarraylist@1.0.5",
+  "_id": "rpqbarraylist@1.0.6",
   "_inCache": true,
   "_location": "/rpqbarraylist",
   "_nodeVersion": "6.11.0",
@@ -84,5 +84,5 @@
   "scripts": {
     "test": "npm test"
   },
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
