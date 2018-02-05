@@ -41,7 +41,7 @@ _.extend(ArrayList.prototype, {
         this[index] = value;
         return this;
     },
-/**
+    /**
      * Get an index 
      *
      * @param index
@@ -58,7 +58,24 @@ _.extend(ArrayList.prototype, {
             }
 
         }
-        return "-1";
+        return -1;
+    },
+
+    /**
+     * Get an index by Id inside obj
+     *
+     * @param index
+     * @param value
+     * @returns {ArrayList}
+     */
+    indexOfObj: function(id) {
+        for (var i = 0, len = this.length; i < len; i++) {
+            
+            if (id === this[i].data.ID) {
+                return i;
+            }
+        }
+        return -1;
     },
 
     /**

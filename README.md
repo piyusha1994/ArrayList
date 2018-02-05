@@ -35,7 +35,7 @@ list.get(1); // world
 ```
 * **indexOf(value)**
 
-    Set an element by position
+    Get index of an Array by element or object
 
 ```js
 var list = new rpqbArrayList;
@@ -48,6 +48,18 @@ or
 if list = ([{"name":"john"},{"name":"tom"}])
 list.indexOf({"name":"john"}); // 0
 list.indexOf({"name":"tom"}); // 1
+```
+
+* **indexOf(value)**
+
+    Get index of an Array by id inside of that object
+
+```js
+var list = new rpqbArrayList;
+
+if list = ([{"id":"1a3b2fd","name":"tom"},{"id":"df34tf6","name":"john"}])
+list.indexOfObj("1a3b2fd"); // 0
+list.indexOfObj("df34tf6"); // 1
 ```
 
 
